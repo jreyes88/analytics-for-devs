@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics for Devs</title>
+</head>
+<body>
+  <header>
+    <p>Analytics for Devs</p>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h1>Homepage</h1>
+      <p>Welcome to Analyics for Devs! This is a little demo website that I'll be using to implement Google Tag Manager, Google Analytics, Google Search Console, and Google Data Studio.</p>
+      <p>This is designed to be playground.</p>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; <span id="copyright"></span> <a href="https://joeyreyes.dev">Joey Reyes</a>
+    </p>
+  </footer>
+  <script>
+    // Footer Copyright Year
+    document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
+  </script>
+</body>
+</html>
